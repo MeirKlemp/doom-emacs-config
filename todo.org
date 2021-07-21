@@ -2,8 +2,10 @@
 
 * TODO IDE
 ** TODO C/C++
-*** TODO use clangd as lsp
+*** DONE use clangd as lsp
+**** TODO investiate what will eglot will give me
 *** TODO formatting
+*** TODO use cmake lsp
 *** TODO compile cmake projects
 ** TODO Rust
 *** TODO use rust-analyzer as lsp
