@@ -1,0 +1,26 @@
+#+TITLE: Todo
+
+* TODO IDE
+** TODO C/C++
+*** TODO use clangd as lsp
+*** TODO formatting
+*** TODO compile cmake projects
+** TODO Rust
+*** TODO use rust-analyzer as lsp
+*** TODO formatting
+*** TODO cargo integration
+** TODO Python
+*** TODO use pyright as lsp
+*** TODO formatting
+*** TODO REPL integration
+*** TODO execute script on the REPL
+** TODO Terminal
+*** TODO use powershell
+** TODO Dotnet
+*** TODO investigate the possibilities
+* TODO Org-Mode
+* TODO Email
+* TODO Messaging
+** TODO Whatsapp
+** TODO Telegram
+** TODO Signal
