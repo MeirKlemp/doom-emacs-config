@@ -3,7 +3,7 @@
 * TODO IDE
 ** TODO C/C++
 *** DONE use clangd as lsp
-**** TODO investiate what will eglot will give me
+*** TODO investiate what will eglot will give me
 *** TODO formatting
 *** TODO use cmake lsp
 *** TODO compile cmake projects
@@ -21,6 +21,12 @@
 ** TODO Dotnet
 *** TODO investigate the possibilities
 * TODO Org-Mode
+** TODO Replace Word
+*** TODO Support Hebrew
+*** TODO Support Hebrew & English together
+*** TODO Support math
+*** TODO Export to PDF
+** TODO Implement GTD system
 * TODO Email
 * TODO Messaging
 ** TODO Whatsapp
