@@ -56,9 +56,11 @@
 ;;(unless (string-match-p "^Power N/A" (battery))   ; On laptops...
 ;;  (display-battery-mode 1))                       ; it's nice to know how much power you have
 (display-battery-mode 1)
+(setq display-time-24hr-format 1)
 
 (global-subword-mode 1)                           ; Iterate through CamelCase words
 
+(+global-word-wrap-mode 1)
 
 ;; Prompt for buffer after new split is created
 (defadvice! prompt-for-buffer (&rest _)
@@ -75,3 +77,12 @@
                                 "--header-insertion=never"
                                 "--header-insertion-decorators=0"))
 (after! lsp-clangd (set-lsp-priority! 'clangd 2))
+
+;; Set the shell to powershell 7 on windows
+(if (eq system-type 'windows-nt)
+    (setq explicit-shell-file-name "pwsh.exe"))
+
+(add-hook! 'emacs-startup-hook 'toggle-frame-fullscreen)
+
+(after! evil
+  (define-key evil-normal-state-map (kbd "s") 'evil-delete-backward-char-and-join))
